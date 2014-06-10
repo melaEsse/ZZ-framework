@@ -1,16 +1,71 @@
-// Grid
+// Griglia fluida
+@if $tipo-griglia == fluid {
+
+	// determina la width di una singola colonna
+ 	$col-width: (100% / $cols);
 
 
-@for $i from 1 through $cols {
-    .col#{$i} {
-        width: $col-width * $i;
-        float: left;
-        padding-left: ($gutter/2);
-        padding-right: ($gutter/2);
-    }
+	// crea la griglia
+	@for $i from 1 through $cols {
+
+	    .col#{$i} {
+	        width: $col-width * $i;
+	        float: left;
+	        padding-left: ($gutter/2);
+	        padding-right: ($gutter/2);
+	    }
+	}
+
+	//pre- margin-left
+	@for $i from 1 through ($cols - 1) {
+	    .pre#{$i} {
+	        margin-left: ($col-width * $i);
+	    }
+	}
+
+	//suf - margin-right
+	@for $i from 1 through ($cols - 1) {
+	    .suf#{$i} {
+	        margin-right: ($col-width * $i);
+	    }
+	}
+
 }
 
-%box-sizing { @include box-sizing; }
+// Griglia in pixel
+@if $tipo-griglia == pixel { 
+	
+
+	// determina la width di una singola colonna
+ 	$col-width: ($container / $cols);
+
+
+	// crea la griglia
+	@for $i from 1 through $cols {
+
+	    .col#{$i} {
+	        width: $col-width * $i;
+	        float: left;
+	        padding-left: ($gutter/2);
+	        padding-right: ($gutter/2);
+	    }
+	}
+
+	//pre- margin-left
+	@for $i from 1 through ($cols - 1) {
+	    .pre#{$i} {
+	        margin-left: ($col-width * $i);
+	    }
+	}
+
+	//suf - margin-right
+	@for $i from 1 through ($cols - 1) {
+	    .suf#{$i} {
+	        margin-right: ($col-width * $i);
+	    }
+	}
+
+}
 
 //box-sizing
 @for $i from 1 through $cols {
@@ -26,19 +81,6 @@
     }
 }
 
-//pre- margin-left
-@for $i from 1 through ($cols - 1) {
-    .pre#{$i} {
-        margin-left: ($col-width * $i);
-    }
-}
-
-//suf - margin-right
-@for $i from 1 through ($cols - 1) {
-    .suf#{$i} {
-        margin-right: ($col-width * $i);
-    }
-}
 
 
 //row
