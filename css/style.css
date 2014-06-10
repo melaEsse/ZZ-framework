@@ -219,7 +219,7 @@ p a:hover { text-decoration: none; }
 /* =============================================
 ** | LAYOUT | **
 ================================================ */
-.zz--container { width: 950px; margin: 0 auto; }
+.zz--container { width: 960px; margin: 0 auto; }
 
 .box--color { height: 100px; margin-bottom: 10px; background-color: rgba(0, 0, 0, 0.6); }
 
@@ -229,73 +229,73 @@ p a:hover { text-decoration: none; }
 /* =============================================
 ** | GRIGLIA | **
 ================================================ */
-.col1 { width: 80px; float: left; padding-left: 5px; padding-right: 5px; }
+.col1 { width: 8.33333%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col2 { width: 160px; float: left; padding-left: 5px; padding-right: 5px; }
+.col2 { width: 16.66667%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col3 { width: 240px; float: left; padding-left: 5px; padding-right: 5px; }
+.col3 { width: 25%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col4 { width: 320px; float: left; padding-left: 5px; padding-right: 5px; }
+.col4 { width: 33.33333%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col5 { width: 400px; float: left; padding-left: 5px; padding-right: 5px; }
+.col5 { width: 41.66667%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col6 { width: 480px; float: left; padding-left: 5px; padding-right: 5px; }
+.col6 { width: 50%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col7 { width: 560px; float: left; padding-left: 5px; padding-right: 5px; }
+.col7 { width: 58.33333%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col8 { width: 640px; float: left; padding-left: 5px; padding-right: 5px; }
+.col8 { width: 66.66667%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col9 { width: 720px; float: left; padding-left: 5px; padding-right: 5px; }
+.col9 { width: 75%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col10 { width: 800px; float: left; padding-left: 5px; padding-right: 5px; }
+.col10 { width: 83.33333%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col11 { width: 880px; float: left; padding-left: 5px; padding-right: 5px; }
+.col11 { width: 91.66667%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.col12 { width: 960px; float: left; padding-left: 5px; padding-right: 5px; }
+.col12 { width: 100%; float: left; padding-left: 5px; padding-right: 5px; }
 
-.pre1 { margin-left: 80px; }
+.pre1 { margin-left: 8.33333%; }
 
-.pre2 { margin-left: 160px; }
+.pre2 { margin-left: 16.66667%; }
 
-.pre3 { margin-left: 240px; }
+.pre3 { margin-left: 25%; }
 
-.pre4 { margin-left: 320px; }
+.pre4 { margin-left: 33.33333%; }
 
-.pre5 { margin-left: 400px; }
+.pre5 { margin-left: 41.66667%; }
 
-.pre6 { margin-left: 480px; }
+.pre6 { margin-left: 50%; }
 
-.pre7 { margin-left: 560px; }
+.pre7 { margin-left: 58.33333%; }
 
-.pre8 { margin-left: 640px; }
+.pre8 { margin-left: 66.66667%; }
 
-.pre9 { margin-left: 720px; }
+.pre9 { margin-left: 75%; }
 
-.pre10 { margin-left: 800px; }
+.pre10 { margin-left: 83.33333%; }
 
-.pre11 { margin-left: 880px; }
+.pre11 { margin-left: 91.66667%; }
 
-.suf1 { margin-right: 80px; }
+.suf1 { margin-right: 8.33333%; }
 
-.suf2 { margin-right: 160px; }
+.suf2 { margin-right: 16.66667%; }
 
-.suf3 { margin-right: 240px; }
+.suf3 { margin-right: 25%; }
 
-.suf4 { margin-right: 320px; }
+.suf4 { margin-right: 33.33333%; }
 
-.suf5 { margin-right: 400px; }
+.suf5 { margin-right: 41.66667%; }
 
-.suf6 { margin-right: 480px; }
+.suf6 { margin-right: 50%; }
 
-.suf7 { margin-right: 560px; }
+.suf7 { margin-right: 58.33333%; }
 
-.suf8 { margin-right: 640px; }
+.suf8 { margin-right: 66.66667%; }
 
-.suf9 { margin-right: 720px; }
+.suf9 { margin-right: 75%; }
 
-.suf10 { margin-right: 800px; }
+.suf10 { margin-right: 83.33333%; }
 
-.suf11 { margin-right: 880px; }
+.suf11 { margin-right: 91.66667%; }
 
 .col1 { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 
